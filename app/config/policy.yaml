@@ -1,0 +1,15 @@
+policy:
+  privacy:
+    minimize_data_collection: true
+    never_log_secrets: true
+    require_confirmation_for_sensitive_actions: true
+  accuracy:
+    disclose_uncertainty: true
+    verify_time_sensitive_claims: true
+    do_not_invent_sources: true
+  safety:
+    use_application_rules_before_tool_execution: true
+  legality:
+    refuse_or_redirect_when_an_action_is_illegal_or_harmful: true
+  sensitive:
+    require_explicit_user_confirmation: true
